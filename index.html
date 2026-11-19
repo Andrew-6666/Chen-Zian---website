@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew Corner | Coffee Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <h1 class="logo">Brew Corner</h1>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="small-heading">WELCOME TO BREW CORNER</p>
+          <h2>Your Daily Coffee,<br>Your Study Corner.</h2>
+          <p>Enjoy fresh coffee, delicious snacks and a comfortable place to relax or study.</p>
+          <a href="#menu" class="button">Explore Our Menu</a>
+        </div>
+        <div class="hero-image"><img src="images/cafe-interior.jpg" alt="Comfortable coffee shop interior"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <p class="small-heading">OUR STORY</p>
+        <h2>About Brew Corner</h2>
+        <p class="section-description">Brew Corner is a friendly coffee shop designed for university students and young adults. We serve freshly prepared coffee and affordable snacks in a warm and comfortable environment. Whether you want to study, relax or meet friends, Brew Corner is a great place to enjoy your day.</p>
+        <div class="features">
+          <article class="feature"><span class="feature-icon" aria-hidden="true">☕</span><h3>Fresh Coffee</h3><p>Enjoy freshly prepared coffee every day.</p></article>
+          <article class="feature"><span class="feature-icon" aria-hidden="true">🥐</span><h3>Fresh Snacks</h3><p>Choose from our delicious snacks and pastries.</p></article>
+          <article class="feature"><span class="feature-icon" aria-hidden="true">📚</span><h3>Study Friendly</h3><p>A comfortable space for studying and relaxing.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu section-padding">
+      <div class="container">
+        <p class="small-heading">OUR MENU</p><h2>Popular Choices</h2>
+        <p class="section-description">Enjoy our selection of coffee and freshly baked treats.</p>
+        <div class="menu-grid">
+          <article class="menu-card"><img src="images/iced-latte.jpg" alt="A glass of iced latte"><div class="menu-info"><h3>Iced Latte</h3><p>Smooth espresso with fresh milk and ice.</p><span class="price">RM 8.90</span></div></article>
+          <article class="menu-card"><img src="images/cappucino.jpg" alt="A cup of cappuccino"><div class="menu-info"><h3>Cappuccino</h3><p>Rich espresso with steamed milk foam.</p><span class="price">RM 9.90</span></div></article>
+          <article class="menu-card"><img src="images/croissant.jpg" alt="Fresh butter croissant"><div class="menu-info"><h3>Butter Croissant</h3><p>A fresh and crispy pastry for your day.</p><span class="price">RM 5.90</span></div></article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="video" class="video-section">
+      <h2>Our Coffee Moments</h2>
+      <p>Enjoy a little coffee break with Brew Corner.</p>
+
+      <video controls width="100%">
+        <source src="images/coffee-making.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <p class="small-heading">GET IN TOUCH</p><h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Visit Brew Corner</h3>
+            <p>📍 Near the university campus</p><p>🕒 Monday – Sunday: 9:00 AM – 9:00 PM</p>
+            <p>✉️ hello@brewcorner.example</p>
+            <p>We welcome students and coffee lovers to visit and enjoy our coffee.</p>
+          </div>
+          <form class="contact-form">
+            <label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Enter your name">
+            <label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="Enter your email">
+            <label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+            <button type="button" class="button">Send Message</button>
+            <p class="form-note">This form is for demonstration only and does not send messages.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><h2>Brew Corner</h2><p>Your Daily Coffee, Your Study Corner.</p><p class="copyright">&copy; 2026 Brew Corner. All Rights Reserved.</p></div></footer>
+</body>
+</html>
